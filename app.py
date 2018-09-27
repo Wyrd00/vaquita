@@ -29,7 +29,6 @@ def github_login():
     if account_info.ok:
         account_info_json = account_info.json()
         # return jsonify(account_info_json), 200
-        print(account_info_json)
         return render_template('index.html', json=account_info_json.get('repos_url'), result=account_info_json)
     return "<h1>Request failed!</h1>"
 

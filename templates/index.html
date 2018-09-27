@@ -14,15 +14,14 @@
 
 <body>
 	<div class='container'>
-		<div class='container' id='username'>
+		<div class='container'>
 			<div class="row justify-content-center" id="logo-row">
+				<h1 class='display-4 mb-5 mt-5'>Username: <span id='username'></span></h1>
 			</div>
-
-			<h1>Username:<span id='username'></span></h1>
-			<ul id='repo-list'>
 		</div>
 
-		<div class='container' id='repo'>
+		<h1 class='display-4 mb-5 mt-5'>Repositories</h1>
+		<div id='repo-list'>
 		</div>
 
 		<div class='container' id='footer'>
@@ -45,13 +44,12 @@
 				for (let i = 0; i < data.length; ++i) {
 					html +=
 						`
-
-		<h4>
+						<div class="card card-body">
+					<h4>
           <span className="text-success">
-            <small>{data[i].name} </small>
+            <small>${data[i].name} </small>
             <i
               className="fas fa-arrow-down float-right"
-              style={{ cursor: "pointer" }}
             />
           </span>
         </h4>
