@@ -1,7 +1,5 @@
 # Vaquita - GitHub Contribution Panel project
 
-<p align="center"><img src="https://github.com/orcahubteam/orcahub/blob/master/LogoOrcahub.png" style="height:15%;width:15%" /></p>
-
 ## Introduction
 
 Thanks for visiting our project, Vaquita. This is our web application that allows a user to connect to Github and (securely) display commit activities of all a user’s repositories if they provide their GitHub credentials using OAuth. This app was created in a 1 day hackathon with fellow Holberton students at https://www.holbertonschool.com/
